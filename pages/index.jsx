@@ -4,16 +4,17 @@ import SideBar from "../Components/SideBar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black h-screen overflow-hidden">
       <Head>
         <title>Spotify 2.0</title>
       </Head>
 
       <main>
-        {/* SideBar */} 
         <SideBar/>
         {/* Center */}
       </main>
+
+      {/* Player */}
     </div>
   );
 }
