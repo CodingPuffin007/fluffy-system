@@ -72,5 +72,5 @@ export default NextAuth({
 
             return session;
         }
-    }
+    },
 })
